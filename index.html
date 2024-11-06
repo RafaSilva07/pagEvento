@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento - Milk-Shakespeare</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho da Página -->
+    <header class="header">
+        <h1 class="evento-titulo">Lançamento da <span>Milk-Shakespeare</span></h1>
+        <p class="subtitulo">Sorvetes & Livros - Um lugar para se deliciar e se inspirar!</p>
+    </header>
+
+    <nav class="navbar" i>
+        <ul>
+            <li><a href="#info-evento">Informações</a></li>
+            <li><a href="#sabores">Sorvetes</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+    <!-- Informações do Evento com Imagem de Destaque -->
+    <section class="info-evento" id="info-evento">
+        <div class="detalhes-evento" >
+            <p class="evento-descricao">
+                Junte-se a nós para a inauguração da <strong>Milk-Shakespeare</strong>, uma combinação única de sorveteria e livraria! 
+                Sabores incríveis, histórias cativantes e momentos inesquecíveis esperam por você.
+            </p>
+            <p class="evento-data">
+                <strong>Data:</strong> 12 de dezembro de 2024<br>
+                <strong>Horário:</strong> 17h<br>
+                <strong>Local:</strong> Rua 7-A, Santa Maria, Número 2, Orizona-GO
+            </p>
+            <p class="convite">Traga a família e amigos para essa tarde deliciosa!</p>
+        </div>
+    </section>
+
+    <!-- Seção de Sorvetes - Com Destaque de Fotos -->
+    <section class="sorvetes" id="sabores">
+        <h2>Sabores que Derretem o Coração</h2>
+        <div class="sorvetes-imagens">
+            <img src="img/Sorevete B+C.webp" alt="Sorvete de baunilha com calda de chocolate">
+            <img src="img/Morango+F.webp" alt="Sorvete de morango com pedaços de fruta">
+            <img src="img/pistache.webp" alt="Sorvete de pistache com cobertura de mel">
+        </div>
+        <p>Venha provar os nossos sabores exclusivos durante a inauguração! Degustações gratuitas disponíveis para todos os visitantes.</p>
+    </section>
+
+    <!-- Seção de FAQ com Ação de Expansão -->
+    <section class="faq" id="faq">
+        <h2>Perguntas Frequentes</h2>
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">O evento é gratuito?</button>
+            <div class="faq-answer">
+                <p>Sim, o evento de lançamento é totalmente gratuito! Traga sua família e amigos para conhecer a Milk-Shakespeare.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">Haverá degustação de sorvetes?</button>
+            <div class="faq-answer">
+                <p>Sim! Durante o evento, teremos degustações gratuitas de nossos sabores exclusivos de sorvete.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(this)">Posso levar meu próprio livro?</button>
+            <div class="faq-answer">
+                <p>Claro! Teremos um espaço aconchegante para leitura e troca de livros, então traga o seu preferido para
+                    compartilhar ou apenas para ler enquanto saboreia um sorvete.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <p>© 2024 Milk-Shakespeare. Todos os direitos reservados. | Sorvetes & Livros - Um Mundo de Sabores e Histórias!</p>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
